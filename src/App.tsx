@@ -1,12 +1,14 @@
 import './App.module.scss'
-import Container from 'react-bootstrap/Container'
-import classes from './App.module.scss'
-import { Card } from 'react-bootstrap'
+import Container from 'react-bootstrap/Container';
+import classes from './App.module.scss';
+import { Card } from 'react-bootstrap';
+
+
 
 function App() {
 
   return (
-      <Container className={classes.content}>
+      <Container fluid  className={classes.content}>
           <Card style={{ width: '20rem' }}>
             <Card.Body>
                 <Card.Title style={{ fontWeight: 700 }}>Alimentação</Card.Title>
@@ -105,6 +107,8 @@ function App() {
                   </div>
               </Card.Body>
           </Card>
+
+          
       </Container>
   )
 }
