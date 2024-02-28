@@ -1,0 +1,20 @@
+// Default variable overrides
+$body-bg: #ccc;
+$body-color: #999;
+
+$primary: #016459;
+$danger: #ff4136;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 20px;
+  line-height: 0;
+  border: none;
+}
